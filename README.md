@@ -1,0 +1,13 @@
+- Uma classe modelo representa uma tabela do banco de dados e os atributos dessa classe vão representar os atributos
+- Obrigatoriamente essa classe precisa seguir o modelo do java bin ou POJO
+- POJO = Plan Old Java Object
+    - Todos os atributos dessa classe são privados
+    - Devemos definir os metodos Getters e Setters para todos os atributos
+    - Devemos ter um construtor vazio
+    - Precisa ter o metodo Equals And HashCode
+- Classe repository é responsavel por realizar as querys dentro do banco de dados
+- <> = generic types
+- injeção de dependencia = disponibilizar dependencias para o controller atraves de um construtor.
+- inversão de controle = automatizar o processo de injeção de dependencia
+- o spring só consegue fazer inversão de controle com classes que são binSpring (@Component)
+- 
